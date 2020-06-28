@@ -28,13 +28,13 @@
 <ul>
 <li>数据传送指令 mov</li>
 <blockquote>
-  <p>mov ax, bx      ;bx-->ax</p>
+  <div>mov ax, bx ;bx-->ax</div>
 </blockquote>
   
 <li>加减法指令 add/sub</li>
 <blockquote>
-  <p>add ax, bx   ;ax=ax+bx<hr>
-  sub ax, bx   ;ax=ax-bx</p>
+  <div>add ax, bx ;ax=ax+bx</div>
+  <div>sub ax, bx ;ax=ax-bx</div>
 </blockquote>
 
 <li>除法指令 div</li>
