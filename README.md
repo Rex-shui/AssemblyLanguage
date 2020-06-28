@@ -22,6 +22,9 @@
 </ul>
 <hr>
 
+</body>
+</html>
+
 ### 常用指令
 - [数据传送指令 mov](#mov)
 - [加减法指令 add/sub](#addsub)
@@ -31,7 +34,7 @@
 ***
 
 <h3 id="mov">数据传送指令 mov</h3>
-* mov ax,bx       ;bx-->ax
+* mov ax,bx     ;bx-->ax
 
 <h3 id="addsub">加减法指令 add&sub</h3>
 * add ax,bx     ;ax=ax+bx
@@ -41,5 +44,3 @@
 
 <h3 id="mov">乘法指令 mul</h3>
 
-</body>
-</html>
