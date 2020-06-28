@@ -20,15 +20,21 @@
   <li><span>CS:IP指向即将执行的指令</span></li>
   <li><span>SS:SP栈顶元素</span></li>
 </ul>
-<hr>
 
 </body>
 </html>
 
 ## 常用指令
 - 数据传送指令 mov
+<blockquote>
+  mov ax, bx      ;bx-->ax
+</blockquote>
 - 加减法指令 add/sub
-- 除法指令 div]
+<blockquote>
+  <p>add ax, bx   ;ax=ax+bx</p>
+  <p>sub ax, bx   ;ax=ax-bx</p>
+</blockquote>
+- 除法指令 div
 - 乘法指令 mul
 
 ***
