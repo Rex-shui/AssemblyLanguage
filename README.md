@@ -50,4 +50,10 @@
   <div>两个相乘的数，要么都是8位，要么都是16位。如果是8位，另一个数默认存放在AL中。如果是16位，另一个数默认存放在AX中。</div>
   <div>8位乘法结果默认在AX中，16位乘法结果默认高位在DX中存放，低位在AX中存放。</div>
 </blockquote>
+
+<li>Loop 指令</li>
+<blockquote>
+  <div>loop 标号</div>
+  <div>cpu执行loop指令时，先将CX中的值减一，再判断CX中的值，不为0则转移到标号处执行。<br>若CX初值为0，则会一直跳转到标号处执行指令。</br></div>
+</blockquote>
 </ul>
