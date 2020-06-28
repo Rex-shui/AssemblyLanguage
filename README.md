@@ -11,14 +11,14 @@
 <hr>
 
 <h3>常用的寄存器与一些指令</h3>
-<blockquote>
-  <span>通用寄存器 AX,BX,CX,DX</span>
-  <span>段寄存器 CS, DS, SS, ES</span>
-  <span>SI, DI, SP, BP, IP, PSW</span>
-  <span>程序以段地址：偏移地址的方式指定内存，段地址默认保存在段寄存器DS中</span>
-  <span>CS:IP指向即将执行的指令</span>
-  <span>SS:SP栈顶元素</span>
-</blockquote>
+<ul>
+  <li><span>通用寄存器 AX,BX,CX,DX</span></li>
+  <li><span>段寄存器 CS, DS, SS, ES</span></li>
+  <li><span>SI, DI, SP, BP, IP, PSW</span></li>
+  <li><span>程序以段地址：偏移地址的方式指定内存，段地址默认保存在段寄存器DS中</span></li>
+  <li><span>CS:IP指向即将执行的指令</span></li>
+  <li><span>SS:SP栈顶元素</span></li>
+</ul>
 <hr>
 
 <ul>
