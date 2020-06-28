@@ -10,7 +10,7 @@
 </ul>
 <hr>
 
-<h3>寄存器简介</h3>
+<h2>寄存器简介</h2>
 <ul>
   <li><span>总共14个寄存器AX, BX, CX, DX, SI, DI, SP, BP, IP, CS, SS, DS, ES, PSW</span></li>
   <li><span>通用寄存器 AX, BX, CX, DX</span></li>
@@ -25,7 +25,7 @@
 </body>
 </html>
 
-### 常用指令
+## 常用指令
 - [数据传送指令 mov](#mov)
 - [加减法指令 add/sub](#addsub)
 - [除法指令 div](#div)
@@ -33,14 +33,14 @@
 
 ***
 
-<h3 id="mov">数据传送指令 mov</h3>
-* mov ax,bx     ;bx-->ax
+<h2 id="mov">数据传送指令 mov</h2>
+- mov ax,bx     ;bx-->ax
 
-<h3 id="addsub">加减法指令 add&sub</h3>
-* add ax,bx     ;ax=ax+bx
-* sub ax,bx     ;ax=ax-bx
+<h2 id="addsub">加减法指令 add&sub</h2>
+- add ax,bx     ;ax=ax+bx
+- sub ax,bx     ;ax=ax-bx
 
-<h3 id="div">除法指令 div</h3>
+<h2 id="div">除法指令 div</h2>
 
-<h3 id="mov">乘法指令 mul</h3>
+<h2 id="mov">乘法指令 mul</h2>
 
