@@ -54,6 +54,6 @@
 <li>Loop 指令</li>
 <blockquote>
   <div>loop 标号</div>
-  <div>cpu执行loop指令时，先将CX中的值减一，再判断CX中的值，不为0则转移到标号处执行。<br><b>若CX初值为0，则会一直跳转到标号处执行指令。<b></div>
+  <div>cpu执行loop指令时，先将CX中的值减一，再判断CX中的值，不为0则转移到标号处执行。<br><b>若CX初值为0，则会一直跳转到标号处执行指令。</b></div>
 </blockquote>
 </ul>
