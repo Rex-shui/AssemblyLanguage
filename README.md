@@ -24,17 +24,19 @@
 </body>
 </html>
 
-## 常用指令
-- 数据传送指令 mov
+<h2>常用指令</h2>
+<ul>
+<li>数据传送指令 mov</li>
 <blockquote>
   mov ax, bx      ;bx-->ax
 </blockquote>
-- 加减法指令 add/sub
+  
+<li>加减法指令 add/sub</li>
 <blockquote>
   <p>add ax, bx   ;ax=ax+bx</p>
-  <p>sub ax, bx   ;ax=ax-bx</p>
+  sub ax, bx   ;ax=ax-bx
 </blockquote>
-- 除法指令 div
-- 乘法指令 mul
 
-***
+<li>除法指令 div</li>
+<li>乘法指令 mul</li>
+</ul>
