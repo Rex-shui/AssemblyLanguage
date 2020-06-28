@@ -38,5 +38,10 @@
 </blockquote>
 
 <li>除法指令 div</li>
+<blockquote>
+  <div>div reg/内存单元</div>
+  <div>除数8位，则被除数16位，默认存放在AX中。除数16位，被除数32位，存放在AX和DX中，DX存放高16位，AX存放低16位</div>
+  <div>除数为8位，AL存放商，AH存余数除数为16位，AX存放商，DX存放余数</div>
+</blockquote>
 <li>乘法指令 mul</li>
 </ul>
