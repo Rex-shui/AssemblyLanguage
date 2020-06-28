@@ -33,11 +33,11 @@
 ***
 
 <h3 id="mov">数据传送指令 mov</h3>
-mov ax,bx       ;bx-->ax
+* mov ax,bx       ;bx-->ax
 
 <h3 id="addsub">加减法指令 add&sub</h3>
-- add ax,bx     ;ax=ax+bx
-- sub ax,bx     ;ax=ax-bx
+* add ax,bx     ;ax=ax+bx
+* sub ax,bx     ;ax=ax-bx
 
 <h3 id="div">除法指令 div</h3>
 
