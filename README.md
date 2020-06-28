@@ -26,21 +26,9 @@
 </html>
 
 ## 常用指令
-- [数据传送指令 mov](#mov)
-- [加减法指令 add/sub](#addsub)
-- [除法指令 div](#div)
-- [乘法指令 mul](#mul)
+- 数据传送指令 mov
+- 加减法指令 add/sub
+- 除法指令 div]
+- 乘法指令 mul
 
 ***
-
-<h2 id="mov">数据传送指令 mov</h2>
-- [mov ax,bx     ;bx-->ax](#2)
-
-<h2 id="addsub">加减法指令 add&sub</h2>
-*   add ax,bx     ;ax=ax+bx
-*   sub ax,bx     ;ax=ax-bx
-
-<h2 id="div">除法指令 div</h2>
-
-<h2 id="mov">乘法指令 mul</h2>
-
