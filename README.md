@@ -34,7 +34,7 @@
 ***
 
 <h2 id="mov">数据传送指令 mov</h2>
-*   [mov ax,bx     ;bx-->ax](#2)
+- [mov ax,bx     ;bx-->ax](#2)
 
 <h2 id="addsub">加减法指令 add&sub</h2>
 *   add ax,bx     ;ax=ax+bx
