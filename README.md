@@ -16,13 +16,10 @@
   <li><span>通用寄存器 AX, BX, CX, DX</span></li>
   <li><span>段寄存器 CS, SS, DS, ES</span></li>
   <li><span>标志寄存器PSW</span></li>
-  <li><span>程序以段地址：偏移地址的方式指定内存，段地址默认保存在段寄存器DS中</span></li>
+  <li><span>程序在内存空间中地址的段地址默认保存在DS中</span></li>
   <li><span>CS:IP指向即将执行的指令</span></li>
   <li><span>SS:SP栈顶元素</span></li>
 </ul>
-
-</body>
-</html>
 
 <h2>常用指令</h2>
 <ul>
@@ -54,6 +51,15 @@
 <li>Loop 指令</li>
 <blockquote>
   <div>loop 标号</div>
-  <div>cpu执行loop指令时，先将CX中的值减一，再判断CX中的值，不为0则转移到标号处执行。<br><b>若CX初值为0，则会一直跳转到标号处执行指令。</b></div>
+  <div>cpu执行loop指令时，先将CX中的值减一，再判断CX中的值，不为0则转移到标号处执行。<br>
+    <b>若CX初值为0，则会一直跳转到标号处执行指令。</b>
+  </div>
 </blockquote>
 </ul>
+
+<h2><a href=".\notes\stack.asm">栈</a></h2>
+<blockquote>
+  <p>栈</p>
+</blockquote>
+</body>
+</html>
