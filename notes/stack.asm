@@ -13,14 +13,14 @@ start:
 	mov bx,0
 	mov cx,4
 s:	
-  push cs:[bx]
+  	push cs:[bx]
 	add bx,2
 	loop s
 	
 	mov bx,0
 	mov cx,8
 s0:	
-  pop cs:[bx]
+  	pop cs:[bx]
 	add bx,2
 	loop s0
 	
