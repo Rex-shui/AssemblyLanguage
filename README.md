@@ -82,7 +82,8 @@
     [bx+idata], [si+idata], [di+idata], [bp+idata]<br>
     [bx+si], [bx+di], [bp+si], [bp+di]<br>
     [bx+si+idata], [bx+di+idata], [bp+si+idata], [bp+di+idata]<br>
-    只要在[...]中出现bp，段地址默认保存在SS中，否则默认保存在DS中
+    若指令中没有显示的给出段地址，只要在[...]中出现bp，段地址默认保存在SS中，否则默认保存在DS中<br>
+    例：mov ax,CS:[bp]
   </p>
 </blockquote>
 </ul>
