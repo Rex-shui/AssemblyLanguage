@@ -7,7 +7,7 @@
 <body>
 <ul>
   <li><h3><a href=".\notes\hw.asm">hello world~</a></h3></li>
-  <img src=".\img\hw.jpg">
+  <img src=".\img\hw.jpg" alt="图片显示出错orz">
 </ul>
 <hr>
 
