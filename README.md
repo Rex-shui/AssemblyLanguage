@@ -73,7 +73,19 @@
 </blockquote>
 </ul>
 
-
+<h2>定位内存地址</h2>
+<ul>
+<blockquote>
+  <p>
+    注意汇编源文件中mov ax,[idata]编译后ax=idata，而mov ax,ds:[idata]则ax的值为内存ds:[idata]处的值。<br>
+    [bx], [si], [di], [bp]<br>
+    [bx+idata], [si+idata], [di+idata], [bp+idata]<br>
+    [bx+si], [bx+di], [bp+si], [bp+di]<br>
+    [bx+si+idata], [bx+di+idata], [bp+si+idata], [bp+di+idata]<br>
+    只要在[...]中出现bp，段地址默认保存在SS中，否则默认保存在DS中
+  </p>
+</blockquote>
+</ul>
 
 </body>
 </html>
