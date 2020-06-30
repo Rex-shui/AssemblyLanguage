@@ -61,13 +61,13 @@
 <ul>
 <blockquote>
   <p>
-    栈向着内存地址减小的方向生长，SS:SP始终指向栈顶元素
-    设栈的空间从10000H~1000FH，栈为空时SS:SP指向10010H
-    push ax入栈
-    （一）sp=sp-2
-    （二）将ax中的内容送入SS:SP指向的内存中
-    pop ax出栈
-    （一）将SS:SP指向的内存单元处的数据送入ax
+    栈向着内存地址减小的方向生长，SS:SP始终指向栈顶元素<br>
+    设栈的空间从10000H~1000FH，栈为空时SS:SP指向10010H<br>
+    push ax入栈<br>
+    （一）sp=sp-2<br>
+    （二）将ax中的内容送入SS:SP指向的内存中<br>
+    pop ax出栈<br>
+    （一）将SS:SP指向的内存单元处的数据送入ax<br>
     （二）sp=sp+2
   </p>
 </blockquote>
