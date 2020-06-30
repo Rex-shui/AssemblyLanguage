@@ -58,8 +58,22 @@
 </ul>
 
 <h2><a href=".\notes\stack.asm">栈</a></h2>
+<ul>
 <blockquote>
-  <p>栈</p>
+  <p>
+    栈向着内存地址减小的方向生长，SS:SP始终指向栈顶元素
+    设栈的空间从10000H~1000FH，栈为空时SS:SP指向10010H
+    push ax入栈
+    （一）sp=sp-2
+    （二）将ax中的内容送入SS:SP指向的内存中
+    pop ax出栈
+    （一）将SS:SP指向的内存单元处的数据送入ax
+    （二）sp=sp+2
+  </p>
 </blockquote>
+</ul>
+
+
+
 </body>
 </html>
