@@ -116,7 +116,9 @@
     <h4>条件转移指令jcxz</h4>
     jcxz 标号<br>
     当cx=0时，ip=ip+8位位移<br><br>
-    
+    <h4>循环指令loop</h4>
+    loop 标号<br>
+    cx≠0时，ip=ip+8位位移
     
   </p>
 </blockquote>
