@@ -157,5 +157,13 @@
 </blockquote>
 </ul>
 
+<h2>标志寄存器</h2>
+<ul>
+  <blockquote>
+    <h4>标志寄存器的结构</h4>
+    <img src=".\img\psw.png" alt="图片加载出错">
+  </blockquote>
+</ul>
+
 </body>
 </html>
