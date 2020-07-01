@@ -102,18 +102,21 @@
 <ul>
 <blockquote>
   <p>
-    无条件转移指令jmp，可以只修改IP，也可以同时修改CS和IP。<br>
+    <h4>无条件转移指令jmp</h4>
     "jmp short 标号"实际上的功能为ip=ip+8位位移：<br>
     (1)8位位移=标号处的地址-jmp后指令的第一个字节的地址<br>
     (2)short指明此处为8位位移<br>
     (3)8位位移的范围为-128~127<br>
     (4)8位位移由编译程序在编译时算出<br>
     jmp near ptr 标号，16位位移，-32768~32765<br>
-    jmp far ptr 标号，段间转移又称远转移，cs=标号处的段地址，ip=标号处的偏移地址。<br><br>
-    
+    jmp far ptr 标号，段间转移又称远转移，cs=标号处的段地址，ip=标号处的偏移地址。<br>
     jmp 寄存器 ;ip=寄存器<br>
     jmp word ptr 内存单元(段内转移)<br>
-    jmp dword ptr 内存单元 ;高处字为段地址，低处为偏移地址
+    jmp dword ptr 内存单元 ;高处字为段地址，低处为偏移地址<br><br>
+    <h4>条件转移指令jcxz</h4>
+    jcxz 标号<br>
+    当cx=0时，ip=ip+8位位移<br><br>
+    
     
   </p>
 </blockquote>
