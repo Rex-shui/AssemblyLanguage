@@ -49,7 +49,7 @@
   8位乘法结果默认在AX中，16位乘法结果默认高位在DX中存放，低位在AX中存放。</div>
 </blockquote>
 
-<li>Loop 指令</li>
+<li>循环指令loop</li>
 <blockquote>
   <div>loop 标号</div>
   <div>cpu执行loop指令时，先将CX中的值减一，再判断CX中的值，不为0则转移到标号处执行。<br>
@@ -94,6 +94,27 @@
     [bx+si+idata], [bx+di+idata], [bp+si+idata], [bp+di+idata]<br>
     若指令中没有显示的给出段地址，只要在[...]中出现bp，段地址默认保存在SS中，否则默认保存在DS中<br>
     mov ax,cs:[bp];将内存cs:[bp]中的值送入ax中
+  </p>
+</blockquote>
+</ul>
+
+<h2>转移指令及其原理</h2>
+<ul>
+<blockquote>
+  <p>
+    无条件转移指令jmp，可以只修改IP，也可以同时修改CS和IP。<br>
+    "jmp short 标号"实际上的功能为ip=ip+8位位移：<br>
+    (1)8位位移=标号处的地址-jmp后指令的第一个字节的地址<br>
+    (2)short指明此处为8位位移<br>
+    (3)8位位移的范围为-128~127<br>
+    (4)8位位移由编译程序在编译时算出<br>
+    jmp near ptr 标号，16位位移，-32768~32765<br>
+    jmp far ptr 标号，段间转移又称远转移，cs=标号处的段地址，ip=标号处的偏移地址。<br><br>
+    
+    jmp 寄存器 ;ip=寄存器<br>
+    jmp word ptr 内存单元(段内转移)<br>
+    jmp dword ptr 内存单元 ;高处字为段地址，低处为偏移地址
+    
   </p>
 </blockquote>
 </ul>
