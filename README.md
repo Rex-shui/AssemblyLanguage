@@ -56,6 +56,13 @@
     <b>若CX初值为0，则会一直跳转到标号处执行指令。</b>
   </div>
 </blockquote>
+
+<li>按位与/或 and/or ax,0ffffh</li>
+
+<li>没有寄存器的情况下，指定访问内存单元长度mov word/byte ptr ds:[0],1</li>
+
+<li>数据的重复：db 重复的次数 dup (重复的数据)</li>
+
 </ul>
 
 <h2><a href=".\notes\stack.asm">栈</a></h2>
