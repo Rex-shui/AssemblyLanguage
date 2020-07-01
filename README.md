@@ -125,5 +125,28 @@
 </blockquote>
 </ul>
 
+<h2>CALL与RET指令</h2>
+<ul>
+  <blockquote>
+  <p>
+    <h4>ret和retf</h4>
+    cpu执行ret时：<br>
+    1、ip的值为内存ss*16+sp处的值<br>
+    2、sp=sp+2<br>
+    相当于pop ip<br>
+    retf则相当于：<br>
+    1、pop ip<br>
+    2、pop cs<br><br>
+    <h4>call 标号</h4>
+    1、sp=sp-2<br>
+    2、内存ss*16+sp处的值等于ip的值<br>
+    3、ip=ip+16位位移<br>
+    相当于：<br>
+    push ip<br>
+    jmp near ptr 标号<br><br>
+  </p>
+</blockquote>
+</ul>
+
 </body>
 </html>
