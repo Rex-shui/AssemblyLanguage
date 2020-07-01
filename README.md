@@ -118,7 +118,8 @@
     当cx=0时，ip=ip+8位位移<br><br>
     <h4>循环指令loop</h4>
     loop 标号<br>
-    cx≠0时，ip=ip+8位位移<br>
+    cx≠0时，ip=ip+8位位移<br><br>
+    jmp short 标号，jmp near ptr 标号，jcxz 标号，loop 标号对ip的修改是根据转移起始与转移目的地址的位移来确定。<br>
     <h4><a href="\notes\anyJmp.asm">分析一个程序</a></h4>
   </p>
 </blockquote>
