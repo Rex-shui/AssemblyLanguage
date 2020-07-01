@@ -63,6 +63,8 @@
 
 <li>数据的重复：db 重复的次数 dup (重复的数据)</li>
 
+<li>操作符offset, 取得标号处的偏移地址。</li>
+
 </ul>
 
 <h2><a href=".\notes\stack.asm">栈</a></h2>
