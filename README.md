@@ -151,7 +151,7 @@
     <h4>call 16位寄存器</h4>
     1、push ip<br>
     2、jmp 16位reg<br><br>
-    <h4>call word/dword ptr 标号</h4>
+    <h4>call word/dword ptr 内存单元地址</h4>
     
   </p>
 </blockquote>
