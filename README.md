@@ -118,8 +118,8 @@
     当cx=0时，ip=ip+8位位移<br><br>
     <h4>循环指令loop</h4>
     loop 标号<br>
-    cx≠0时，ip=ip+8位位移
-    
+    cx≠0时，ip=ip+8位位移<br>
+    <h4><a href="\notes\anyJmp.asm">分析一个程序</a></h4>
   </p>
 </blockquote>
 </ul>
