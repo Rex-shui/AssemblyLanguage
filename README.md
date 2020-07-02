@@ -162,6 +162,31 @@
   <blockquote>
     <h4>标志寄存器的结构</h4>
     <img src=".\img\psw.png" alt="图片加载出错">
+    <br>
+    <li>ZF，零标志位，记录相关指令执行后其结果是否为0，为0则zf=1。</li>
+    <li>PF，奇偶标志位，判断结果所有bit位上1的个数是否为偶数，是则pf=1。</li>
+    <li>SF，符号标志位，判断结果是否为负，为负则sf=1。</li>
+    <li>CF，进位标志位，记录是否从最高有效位向更高位的进位值或者借位值，是cf=1，对无符号运算有意义。</li>
+    <li>OF，溢出标志位，记录<b>有符号数运算</b>的结果是否溢出，是of=1。</li>
+    <li>DF，</li>
+    <br>
+    <h4>带进位加法指令adc</h4>
+    <p>
+      adc al,bl<br>
+      al=ax+bl+cf<br>
+      例：0123h+0456h，先23h+56h，再01h+04h+cf。
+    </p>
+    <h4>带借位减法指令adc</h4>
+    <p>
+      sbb ax,bx<br>
+      ax=ax-bx-cf
+    </p>
+    <h4>cmp指令</h4>
+    <p>
+      cmp的功能相当于减法指令，如cmp ax,ax，相当于ax-ax，结果为0，但并不在ax中保存，仅影响flag寄存器中的相关各位。<br>
+      执行后: zf=1, pf=1, sf=0, cf=0, of=0
+    </p>
+    
   </blockquote>
 </ul>
 
