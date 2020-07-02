@@ -7,7 +7,7 @@
 <body>
 <ul>
   <li><h3><a href=".\notes\hw.asm">hello world~</a></h3></li>
-  <img src=".\img\hw.jpg" alt="图片显示出错orz">
+  <img src=".\img\hw.jpg" alt="hello world~">
 </ul>
 <hr>
 
@@ -161,7 +161,7 @@
 <ul>
   <blockquote>
     <h4>标志寄存器的结构</h4>
-    <img src=".\img\psw.png" alt="图片加载出错">
+    <img src=".\img\psw.png" alt="标志寄存器的结构">
     <ul>
     <br>
     <li>ZF，零标志位，记录相关指令执行后其结果是否为0，为0则zf=1。</li>
@@ -196,7 +196,7 @@
     <p>！@#￥%……占坑</p>
     <h4>标志寄存器在debug中的表示</h4>
     <p>
-      <img src=".\notes\psw-debug.png" alt="标志寄存器在debug中的表示">
+      <img src=".\img\psw-debug.png" alt="标志寄存器在debug中的表示">
     </p>
   </blockquote>
 </ul>
