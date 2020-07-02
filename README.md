@@ -169,13 +169,13 @@
     <li>SF，符号标志位，判断结果是否为负，为负则sf=1。</li>
     <li>CF，进位标志位，记录是否从最高有效位向更高位的进位值或者借位值，是cf=1，对无符号运算有意义。</li>
     <li>OF，溢出标志位，记录<b>有符号数运算</b>的结果是否溢出，是of=1。</li>
-    <li>DF，</li>
+    <li>DF，方向标志位，控制每次操作后si，di的递减，df=1递减。</li>
     <br>
     </ul>
     <h4>带进位加法指令adc</h4>
     <p>
       adc al,bl<br>
-      al=ax+bl+cf<br>
+      al=al+bl+cf<br>
       例：0123h+0456h，先23h+56h，再01h+04h+cf。
     </p>
     <h4>带借位减法指令adc</h4>
@@ -188,7 +188,16 @@
       cmp的功能相当于减法指令，如cmp ax,ax，相当于ax-ax，结果为0，但并不在ax中保存，仅影响flag寄存器中的相关各位。<br>
       执行后: zf=1, pf=1, sf=0, cf=0, of=0
     </p>
-    
+    <h4>检测比较结果的条件转移指令</h4>
+    <p>je, jne, jb, jnb, ja, jna</p>
+    <h4>pushf与popf</h4>
+    <p>pushf将标志寄存器中的值压栈，popf将栈中的数据弹出，送入标志寄存器中。</p>
+    <h4>DF与串传送指令</h4>
+    <p>！@#￥%……占坑</p>
+    <h4>标志寄存器在debug中的表示</h4>
+    <p>
+      <img src=".\notes\psw-debug.png" alt="标志寄存器在debug中的表示">
+    </p>
   </blockquote>
 </ul>
 
