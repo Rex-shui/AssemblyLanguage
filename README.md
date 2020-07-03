@@ -192,8 +192,13 @@
     <p>je, jne, jb, jnb, ja, jna</p>
     <h4>pushf与popf</h4>
     <p>pushf将标志寄存器中的值压栈，popf将栈中的数据弹出，送入标志寄存器中。</p>
-    <h4>DF与串传送指令</h4>
-    <p>！@#￥%……占坑</p>
+    <h4>串传送指令movsb</h4>
+    <p>
+      movsb/movsw<br>
+      1、es:di=ds:si
+      2、df=1则si=si-1，di=di-1<br>
+      与循环指令配合使用达到批量传送数据的效果
+    </p>
     <h4>标志寄存器在debug中的表示</h4>
     <p>
       <img src=".\img\psw-debug.png" alt="标志寄存器在debug中的表示">
