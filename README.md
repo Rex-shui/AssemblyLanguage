@@ -231,6 +231,14 @@
   <li>IP的内容入栈</li>
   <li>从中断向量表中读取中断处理程序的入口并设置CS和IP</li>
   </ul>
+  
+  <h4>中断处理程序的一般步骤和iret指令</h4>
+  <ul>
+  <li>保存用到的寄存器</li>
+  <li>处理中断</li>
+  <li>恢复用到的寄存器</li>
+  <li>用iret指令返回（功能用汇编指令描述为pop ip, pop cs, popf）</li>
+  </ul>
 </blockquote>
 </ul>
 
