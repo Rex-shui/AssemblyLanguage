@@ -256,6 +256,19 @@
 </blockquote>
 </ul>
 
+<h2>显示缓存区</h2>
+<ul>
+<blockquote>
+  <ul>
+    <li>显存共32KB，B8000~BFFFF</li>
+    <li>每4KB为一页，共8页，默认显示第0页，B8000~B8FFF</li>
+    <li>一页可以显示80*25个字符，每个字符两字节，高字节存放颜色属性，<b>低字节</b>存放ASCII码</li>
+    <img src="./img/ShowCache.jpg" alt="高字节的颜色属性">
+    <li><a href="./notes/ShowCache.asm">示例</a></li>
+  </ul>
+</blockquote>
+</ul>
+
 
 </body>
 </html>
